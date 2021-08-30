@@ -1,0 +1,55 @@
+body
+{
+	background-image: url("pink.jpg") ;
+	text-align: center;
+	background-color:cornflowerblue;
+	font-size: 1cm;
+	font-family: algerian, 'Times New Roman', Times, serif;
+	background-attachment :fixed ;
+	background-repeat : no-repeat;
+	background-position :	top center;
+	background-image :	url("pink.jpg");
+	background-attachment :fixed ;
+	opacity : 0.8 ;
+} 
+h1{
+	color :black;
+	border-radius: 15px;
+	font-family: algerian;
+
+}
+h2{
+	color:blanchedalmond ;
+}
+.red
+{
+	color: brown;
+	text-align: center;
+	text-decoration: underline;
+	font-family:  Haettenschweiler, 'Arial Narrow Bold', sans-serif,Impact;
+
+}
+.cont
+{
+	color:black;
+	background-color: azure;
+	border-radius: 16px;
+	text-align: center;
+
+}
+@media screen and (max-width: 1280px) {
+	body{
+		background-color: aqua;
+		font-family: Verdana, Geneva, Tahoma, sans-serif;
+		font-size: larger;
+		color: black;
+	}
+	h1{
+		color: brown;
+		font-size: 122px;
+		border-radius: 14%;
+	}
+	
+	
+	}
+	

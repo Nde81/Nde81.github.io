@@ -1,0 +1,78 @@
+h1
+{ 
+    color : aqua;
+	font-size : 129px;
+	font-family : algerian, arial, "arial black" , sans-serif;
+	text-decoration : underline ;
+	font-weight :	bold;
+	text-align : center;
+}
+p 
+{
+	color : white;
+	background-color : black;
+	font-size : 1cm;
+	font-family : algerian,impact,arial , "arial black", sans-serif;
+	font-weight : bold;
+	text-decoration : line-height;
+	text-align: center;
+	background-image : url ("pink.jpg");
+	opacity: 0.9;
+}
+body
+{
+	background-image: url("pink.jpg") ;
+	background-color:cornflowerblue;
+	background-attachment :fixed ;
+	background-repeat : no-repeat;
+    background-position :	top center;
+    background-image :	url("pink.jpg");
+	background-attachment :fixed ;
+	opacity : 0.8 ;
+} 
+.liste
+{
+	color: khaki;
+	background-color: black;
+	border: black solid 12px;
+	text-decoration: underline;
+	font-family: algerian;
+	font-size: 1cm;
+}
+.presentation
+{
+	color : white ;
+	text-align : center ;
+}
+section
+{
+	border-radius : 5 px ;
+	color : white ;
+}
+@media screen and (max-width: 1280px) {
+	body{
+		background-color: aqua;
+		font-family: Verdana, Geneva, Tahoma, sans-serif;
+		font-size: larger;
+		color: black;
+	}
+	h1{
+		color: brown;
+		font-size: 122px;
+		border-radius: 14%;
+	}
+	.presentation{
+		text-align: center;
+		text-decoration: gray;
+
+
+	}
+	.liste
+	{
+		background-color: floralwhite;
+		color: black;
+		font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	
+	}
+	
+}
